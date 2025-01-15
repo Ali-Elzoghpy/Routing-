@@ -38,8 +38,9 @@ export default function Portfolio() {
 
   return (
     <>
-      <div className="top-section text-center mt-3 contact-bg fw-bolder">
-        <h1>Portfolio Component</h1>
+      <div className="top-section text-center mt-5 contact-bg  fw-bolder">
+        <br />
+        <h1 className="mt-5">Portfolio Component</h1>
         <div className="position-relative contact-bg d-inline-flex">
           <i className="fa-solid fa-star py-3  after-bef2 "></i>
           <div className="before2"> </div>

@@ -36,3 +36,9 @@ opacity: 1;
     background-position: center center;
     background-size: cover;
 } */
+ /* حل مشكلة اهتزاز الناف بار عند فتح المودال */
+body.modal-open {
+    padding-right: 0px !important;
+    overflow-y: scroll !important;
+}
+

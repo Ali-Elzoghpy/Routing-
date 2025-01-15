@@ -8,8 +8,8 @@ export default function Home() {
       },[])
   return (
     <>
-      <div className="home-bg py-3 text-center text-white">
-        <img src={myImage}  className="col-2" alt="" />
+      <div className="home-bg py-3 text-center text-white mt-5">
+        <img src={myImage}  className="col-2 mt-5 mb-3" alt="" />
         <h1>start Framework 
         </h1>
         <Star/>
