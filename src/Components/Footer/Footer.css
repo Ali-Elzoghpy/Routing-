@@ -1,0 +1,12 @@
+.icon{
+    padding: 8px;
+    border: white 1px solid;
+}
+.end-footer {
+    background-color: #1A252F;
+    text-align: center;
+    color: white;
+    padding-block: 10px;
+    padding-top:15px;
+    font-size: smaller;
+}

@@ -1,0 +1,42 @@
+.my-container{
+    margin: auto;
+    width: 50%;
+}
+.form-control{
+ border: none;
+border-bottom: 0.2px solid gray !important;
+opacity: 0.5;
+}
+.form-control:focus{
+    box-shadow: none !important;
+    
+}
+.btn-success{
+    background-color: #1ABC9C !important;
+    border: none !important;
+}
+input::placeholder{
+    color: black !important;
+}
+.after-bef2::after{
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: #2C3E50;
+    position: absolute;
+    top: 23px;
+    left: 45px;
+
+}
+.before2{
+    width: 70px;
+    height: 3px;
+    background-color: #2C3E50;
+    position: absolute;
+    top: 23px;
+   left: -100px;
+}
+.contact-bg{
+    color: #2C3E50;
+
+}

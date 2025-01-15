@@ -1,0 +1,38 @@
+.layer{
+    background-color: #2eae94e8;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+.parnt:hover .layer{
+opacity: 1;
+}
+.parnt{
+    cursor: pointer;
+}
+/* #modal{
+        position: fixed;
+        top: 0rem;
+        bottom: 0rem;
+        right: 0rem;
+        left: 0rem;
+        background-color:#2eae942f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.modal-inner{
+    background-image: url("../../assets/poert1.png");
+    height: 50vh;
+    width: 500px;
+    background-position: center center;
+    background-size: cover;
+} */

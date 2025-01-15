@@ -1,0 +1,22 @@
+.after-bef::after{
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 23px;
+    left: 45px;
+
+}
+.after-bef{
+    position: relative;
+
+}
+.before{
+    width: 70px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 23px;
+   left: -100px;
+}
