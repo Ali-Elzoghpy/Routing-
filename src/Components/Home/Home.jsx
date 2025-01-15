@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <div className="home-bg py-3 text-center text-white">
         <img src={myImage}  className="col-2" alt="" />
-        <h1>start Framework
+        <h1>start Framework waleed Abdoo
         </h1>
         <Star/>
         <p>Graphic Artist - Web Designer - Illustrator
